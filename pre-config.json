@@ -1,0 +1,10 @@
+{
+  "save_base": "data",
+  "radius": 25,
+  "wash": 3,
+  "user_file": "origin/user_lon_lat.csv",
+  "event_file": "origin/event_lon_lat.csv",
+  "ue_file": "origin/user_event.csv",
+  "ug_file": "origin/user_group.csv",
+  "eg_file": "origin/event_group.csv"
+}
