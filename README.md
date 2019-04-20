@@ -66,7 +66,7 @@ The process will generate several file in the saved path, including `user.loc`, 
 Then, we can train our model with:
 
 ```bash
-python main.py --mode=run --city_info_path=xxxxx
+python main.py --mode=run --city_info_path=xxxxx --train_path=yyy --dev_path=zzz
 ```
 
 The `city_info_path` is the path of the generated `info.json`.  The input total datasets will first divide into a training dataset and a evaluation dataset. The saved paths can be specified by `train_path` and `dev_path` respectively. The saved files are both `.json` files. The ratio of the evaluation dataset is specified by `test_ratio`. 
